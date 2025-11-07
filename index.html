@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luiza Rocha - Portfólio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+        integrity="sha512-somehash" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="script.js" defer></script>
+
+</head>
+
+<body>
+
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <span class="logo-bracket">&lt;</span>
+                Luiza Rocha
+                <span class="logo-bracket">/&gt;</span>
+            </a>
+
+            <div class="nav-menu" id="navMenu">
+                <a href="#home" class="nav-link">Início</a>
+                <a href="#about" class="nav-link">Sobre</a>
+                <a href="#skills" class="nav-link">Habilidades</a>
+                <a href="#projects" class="nav-link">Projetos</a>
+                <a href="#contact" class="nav-link">Contato</a>
+            </div>
+
+            <div class="nav-actions">
+                <div id="conteudo">
+                    <label class="switch">
+                        <input type="checkbox" id="theme-toggle">
+                        <span class="slider"></span>
+                    </label>
+                </div>
+
+
+                <button class="mobile-toggle" id="mobileToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero" id="home">
+        <div class="hero-background"></div>
+        <div class="container hero-container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <i class="fas fa-code"></i>
+                    <span>Estudante de TI</span>
+                </div>
+                <h1 class="hero-title">
+                    Olá, eu sou <span class="gradient-text">Luiza Rocha</span>
+                </h1>
+                <p class="hero-description">
+                    Estudante apaixonada por tecnologia, focada em desenvolvimento web e sempre em busca de novos
+                    desafios.
+                    Transformando ideias em código e aprendendo algo novo todos os dias.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">
+                        <i class="fas fa-envelope"></i>
+                        Entre em Contato
+                    </a>
+                    <a href="assets/Currículo Luiza.pdf" download class="btn btn-secondary">
+                        <i class="fas fa-download"></i>
+                        Baixar Currículo
+                    </a>
+                </div>
+                <div class="hero-social">
+                    <a href="https://github.com/LuuizaRocha" target="_blank" class="social-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/luiza-rocha-04685334b/" target="_blank" class="social-link">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="mailto:luizarocha2205@gmail.com" class="social-link">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-wrapper">
+                    <img src="https://pusheen.com/wp-content/uploads/2025/07/Gaming_Session.gif" alt="Luiza Rocha">
+                    <div class="image-glow"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Sobre Mim</h2>
+                <p class="section-subtitle">Conheça um pouco mais sobre minha jornada</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-paragraph">
+                        Sou Luiza Rocha, desenvolvedora apaixonada por tecnologia, design e criação de soluções digitais
+                        que unem funcionalidade e estética. Gosto de transformar ideias em projetos reais, com foco em
+                        eficiência, usabilidade e impacto positivo. Tenho experiência com HTML, CSS e MySQL no
+                        desenvolvimento web, criando interfaces intuitivas e bem estruturadas. Também trabalho com Lua
+                        no desenvolvimento de jogos, explorando mecânicas criativas e interativas.
+                    </p>
+                    <p class="about-paragraph">
+                        Além da programação, tenho um grande interesse por design — adoro criar layouts que sejam
+                        visualmente agradáveis e fáceis de navegar. Estou sempre buscando aprender novas ferramentas,
+                        acompanhar tendências e evoluir junto com o mercado, combinando inovação com boas práticas de
+                        desenvolvimento.
+                    </p>
+
+                </div>
+                <div class="about-image">
+                    <img src="assets/fotoparacurriculo.jpg" alt="Workspace">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Habilidades</h2>
+                <p class="section-subtitle">Tecnologias que estou aprendendo</p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <div class="category-header">
+                        <i class="fas fa-code"></i>
+                        <h3>Linguagens</h3>
+                    </div>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">JavaScript</span>
+                                <span class="skill-percentage">40%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">HTML/CSS</span>
+                                <span class="skill-percentage">80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Lua</span>
+                                <span class="skill-percentage">75%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="75"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">SQL</span>
+                                <span class="skill-percentage">70%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="70"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="category-header">
+                        <i class="fas fa-tools"></i>
+                        <h3>Ferramentas & Outros</h3>
+                    </div>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">GitHub</span>
+                                <span class="skill-percentage">60%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">VS Code</span>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Figma</span>
+                                <span class="skill-percentage">80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="65"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Canva</span>
+                                <span class="skill-percentage">95%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="88"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="projects" id="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Projetos</h2>
+                <p class="section-subtitle">Alguns dos meus trabalhos recentes</p>
+            </div>
+            <div class="projects-grid">
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/saphira.png" alt="Sistema de Gerenciamento de Tarefas">
+                        <div class="project-overlay">
+                            <a href="https://github.com/LuuizaRocha/Saphira" target="_blank" rel="noopener noreferrer"
+                                class="btn btn-primary">
+                                <i class="fab fa-github"></i>
+                                Ver Repositório
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Saphira</h3>
+                        <p class="project-description">
+                            E-commerce de joias de luxo, especializado em peças sofisticadas e exclusivas,
+                            com foco em design elegante e materiais nobres.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/belara.png" alt="E-commerce Landing Page">
+                        <div class="project-overlay">
+                            <a href="https://github.com/luizarocha/ecommerce-page" target="_blank"
+                                rel="noopener noreferrer" class="btn btn-primary">
+                                <i class="fab fa-github"></i>
+                                Ver Repositório
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Belara</h3>
+                        <p class="project-description">
+                            Landing page moderna
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="/weather-app-interface.png" alt="Aplicativo de Clima">
+                        <div class="project-overlay">
+                            <a href="https://github.com/luizarocha/weather-app" target="_blank"
+                                rel="noopener noreferrer" class="btn btn-primary">
+                                <i class="fab fa-github"></i>
+                                Ver Repositório
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title"></h3>
+                        <p class="project-description">
+
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag"></span>
+                            <span class="tag"></span>
+                            <span class="tag"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Entre em Contato</h2>
+                <p class="section-subtitle">Vamos conversar sobre projetos e oportunidades</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Informações de Contato</h3>
+                    <p>Estou sempre aberta a novas oportunidades e colaborações. Sinta-se à vontade para entrar em
+                        contato!</p>
+
+                    <div class="contact-items">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>luizarocha2205@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Localização</h4>
+                                <p>Minas Gerais, Belo Horizonte</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="contact-social">
+                        <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Nome</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subject">Telefone</label>
+                        <input type="tel" id="subject" name="subject" required maxlength="15">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Mensagem</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary btn-submit">
+                        <span class="btn-text">Enviar Mensagem</span>
+                        <span class="btn-loading" style="display: none;">
+                            <i class="fas fa-spinner fa-spin"></i> Enviando...
+                        </span>
+                    </button>
+                    <div class="form-message" id="formMessage"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Luiza Rocha. Todos os direitos reservados.</p>
+                <p>Desenvolvido com <i class="fas fa-heart"></i></p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
